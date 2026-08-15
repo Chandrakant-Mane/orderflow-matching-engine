@@ -1,0 +1,35 @@
+cat << 'EOF' > .gitignore
+# ==========================================
+# Java / Maven
+# ==========================================
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.mvn/timing.properties
+
+# ==========================================
+# Node / React Frontend
+# ==========================================
+**/node_modules/
+**/dist/
+**/dist-ssr/
+*.local
+.env
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# ==========================================
+# IDEs & OS Files
+# ==========================================
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+EOF
